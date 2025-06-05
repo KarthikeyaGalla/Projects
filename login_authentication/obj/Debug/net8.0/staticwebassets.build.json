@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "/bsgvwIr02tuq9CsCOngP7hS8qvWLdoEYRkV5AIoVHA=",
+  "Source": "login_authentication",
+  "BasePath": "_content/login_authentication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

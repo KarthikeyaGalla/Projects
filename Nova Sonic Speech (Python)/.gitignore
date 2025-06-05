@@ -1,0 +1,19 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Environment variable files (secrets)
+.env
+*.env

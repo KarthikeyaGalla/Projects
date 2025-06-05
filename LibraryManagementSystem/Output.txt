@@ -1,0 +1,331 @@
+
+=== Library Management System ===
+1. Add Book
+2. Remove Book
+3. Issue Book
+4. Return Book
+5. List Available Books
+6. Borrowed Books
+7. Register the User.
+8. Exit
+Enter your Choice:
+1
+Enter Book ID: B101
+Enter Book Title: The Alchemist
+Enter Author Name: Paulo Coelho
+Enter Total Copies: 5
+Book added Successfully.
+
+=== Library Management System ===
+1. Add Book
+2. Remove Book
+3. Issue Book
+4. Return Book
+5. List Available Books
+6. Borrowed Books
+7. Register the User.
+8. Exit
+Enter your Choice:
+1
+Enter Book ID: B102
+Enter Book Title: Clean Code
+Enter Author Name: Robert C. Martin
+Enter Total Copies: 3
+Book added Successfully.
+
+=== Library Management System ===
+1. Add Book
+2. Remove Book
+3. Issue Book
+4. Return Book
+5. List Available Books
+6. Borrowed Books
+7. Register the User.
+8. Exit
+Enter your Choice:
+1
+Enter Book ID: B103
+Enter Book Title: Introduction to Algorithms
+Enter Author Name: Thomas H. Cormen
+Enter Total Copies: 1
+Book added Successfully.
+
+=== Library Management System ===
+1. Add Book
+2. Remove Book
+3. Issue Book
+4. Return Book
+5. List Available Books
+6. Borrowed Books
+7. Register the User.
+8. Exit
+Enter your Choice:
+5
+
+Available Books:
+ID: B101, Title: The Alchemist, Available: 5
+ID: B102, Title: Clean Code, Available: 3
+ID: B103, Title: Introduction to Algorithms, Available: 1
+
+=== Library Management System ===
+1. Add Book
+2. Remove Book
+3. Issue Book
+4. Return Book
+5. List Available Books
+6. Borrowed Books
+7. Register the User.
+8. Exit
+Enter your Choice:
+3
+Enter Book ID to Issue: B101
+Enter Member ID: anlkcda
+ID: B101, MemberID: anlkcda, IssueID: , BorrowedDate: 4/20/2025 4:53:04 PM, DueDate: 5/5/2025 4:53:04 PM, Return Date:
+Your Book is Issued the IssuedID is 1DXTRkUaWCYyp1I
+
+=== Library Management System ===
+1. Add Book
+2. Remove Book
+3. Issue Book
+4. Return Book
+5. List Available Books
+6. Borrowed Books
+7. Register the User.
+8. Exit
+Enter your Choice:
+6
+
+Borrowed Books:
+ID: B101, MemberID: anlkcda, IssueID: 1DXTRkUaWCYyp1I, BorrowedDate: 4/20/2025 4:53:04 PM, DueDate: 5/5/2025 4:53:04 PM, Return Date:
+
+=== Library Management System ===
+1. Add Book
+2. Remove Book
+3. Issue Book
+4. Return Book
+5. List Available Books
+6. Borrowed Books
+7. Register the User.
+8. Exit
+Enter your Choice:
+4
+Enter Book ID to Return: B101
+Enter Issued ID: 1DXTRkUaWCYyp1I
+Book Returned to the Library Successfully.
+
+=== Library Management System ===
+1. Add Book
+2. Remove Book
+3. Issue Book
+4. Return Book
+5. List Available Books
+6. Borrowed Books
+7. Register the User.
+8. Exit
+Enter your Choice:
+3
+Enter Book ID to Issue: B101
+Enter Member ID: alsncd
+ID: B101, MemberID: anlkcda, IssueID: 1DXTRkUaWCYyp1I, BorrowedDate: 4/20/2025 4:53:04 PM, DueDate: 5/5/2025 4:53:04 PM, Return Date: 4/20/2025 4:53:51 PM
+ID: B101, MemberID: alsncd, IssueID: , BorrowedDate: 4/20/2025 4:54:05 PM, DueDate: 5/5/2025 4:54:05 PM, Return Date:
+Your Book is Issued the IssuedID is ImWqKVux7G39bVo
+
+=== Library Management System ===
+1. Add Book
+2. Remove Book
+3. Issue Book
+4. Return Book
+5. List Available Books
+6. Borrowed Books
+7. Register the User.
+8. Exit
+Enter your Choice:
+5
+
+Available Books:
+ID: B101, Title: The Alchemist, Available: 4
+ID: B102, Title: Clean Code, Available: 3
+ID: B103, Title: Introduction to Algorithms, Available: 1
+
+=== Library Management System ===
+1. Add Book
+2. Remove Book
+3. Issue Book
+4. Return Book
+5. List Available Books
+6. Borrowed Books
+7. Register the User.
+8. Exit
+Enter your Choice:
+3
+Enter Book ID to Issue: B101
+Enter Member ID: ;laknsdc
+ID: B101, MemberID: anlkcda, IssueID: 1DXTRkUaWCYyp1I, BorrowedDate: 4/20/2025 4:53:04 PM, DueDate: 5/5/2025 4:53:04 PM, Return Date: 4/20/2025 4:53:51 PM
+ID: B101, MemberID: alsncd, IssueID: ImWqKVux7G39bVo, BorrowedDate: 4/20/2025 4:54:05 PM, DueDate: 5/5/2025 4:54:05 PM, Return Date:
+ID: B101, MemberID: ;laknsdc, IssueID: , BorrowedDate: 4/20/2025 4:55:21 PM, DueDate: 5/5/2025 4:55:21 PM, Return Date:
+Your Book is Issued the IssuedID is OxyVSMkK7eA5BbC
+
+=== Library Management System ===
+1. Add Book
+2. Remove Book
+3. Issue Book
+4. Return Book
+5. List Available Books
+6. Borrowed Books
+7. Register the User.
+8. Exit
+Enter your Choice:
+5
+
+Available Books:
+ID: B101, Title: The Alchemist, Available: 3
+ID: B102, Title: Clean Code, Available: 3
+ID: B103, Title: Introduction to Algorithms, Available: 1
+
+=== Library Management System ===
+1. Add Book
+2. Remove Book
+3. Issue Book
+4. Return Book
+5. List Available Books
+6. Borrowed Books
+7. Register the User.
+8. Exit
+Enter your Choice:
+3
+Enter Book ID to Issue: B103
+Enter Member ID: lkandc
+ID: B101, MemberID: anlkcda, IssueID: 1DXTRkUaWCYyp1I, BorrowedDate: 4/20/2025 4:53:04 PM, DueDate: 5/5/2025 4:53:04 PM, Return Date: 4/20/2025 4:53:51 PM
+ID: B101, MemberID: alsncd, IssueID: ImWqKVux7G39bVo, BorrowedDate: 4/20/2025 4:54:05 PM, DueDate: 5/5/2025 4:54:05 PM, Return Date:
+ID: B101, MemberID: ;laknsdc, IssueID: OxyVSMkK7eA5BbC, BorrowedDate: 4/20/2025 4:55:21 PM, DueDate: 5/5/2025 4:55:21 PM, Return Date:
+ID: B103, MemberID: lkandc, IssueID: , BorrowedDate: 4/20/2025 4:55:42 PM, DueDate: 5/5/2025 4:55:42 PM, Return Date:
+Your Book is Issued the IssuedID is hRG1C5wmgvLLdnT
+
+=== Library Management System ===
+1. Add Book
+2. Remove Book
+3. Issue Book
+4. Return Book
+5. List Available Books
+6. Borrowed Books
+7. Register the User.
+8. Exit
+Enter your Choice:
+5
+
+Available Books:
+ID: B101, Title: The Alchemist, Available: 3
+ID: B102, Title: Clean Code, Available: 3
+
+=== Library Management System ===
+1. Add Book
+2. Remove Book
+3. Issue Book
+4. Return Book
+5. List Available Books
+6. Borrowed Books
+7. Register the User.
+8. Exit
+Enter your Choice:
+4
+Enter Book ID to Return: B103
+Enter Issued ID: hRG1C5wmgvLLdnT
+Book Returned to the Library Successfully.
+
+=== Library Management System ===
+1. Add Book
+2. Remove Book
+3. Issue Book
+4. Return Book
+5. List Available Books
+6. Borrowed Books
+7. Register the User.
+8. Exit
+Enter your Choice:
+5
+
+Available Books:
+ID: B101, Title: The Alchemist, Available: 3
+ID: B102, Title: Clean Code, Available: 3
+ID: B103, Title: Introduction to Algorithms, Available: 1
+
+=== Library Management System ===
+1. Add Book
+2. Remove Book
+3. Issue Book
+4. Return Book
+5. List Available Books
+6. Borrowed Books
+7. Register the User.
+8. Exit
+Enter your Choice:
+6
+
+Borrowed Books:
+ID: B101, MemberID: anlkcda, IssueID: 1DXTRkUaWCYyp1I, BorrowedDate: 4/20/2025 4:53:04 PM, DueDate: 5/5/2025 4:53:04 PM, Return Date: 4/20/2025 4:53:51 PM
+ID: B101, MemberID: alsncd, IssueID: ImWqKVux7G39bVo, BorrowedDate: 4/20/2025 4:54:05 PM, DueDate: 5/5/2025 4:54:05 PM, Return Date:
+ID: B101, MemberID: ;laknsdc, IssueID: OxyVSMkK7eA5BbC, BorrowedDate: 4/20/2025 4:55:21 PM, DueDate: 5/5/2025 4:55:21 PM, Return Date:
+ID: B103, MemberID: lkandc, IssueID: hRG1C5wmgvLLdnT, BorrowedDate: 4/20/2025 4:55:42 PM, DueDate: 5/5/2025 4:55:42 PM, Return Date: 4/20/2025 4:56:07 PM
+
+=== Library Management System ===
+1. Add Book
+2. Remove Book
+3. Issue Book
+4. Return Book
+5. List Available Books
+6. Borrowed Books
+7. Register the User.
+8. Exit
+Enter your Choice:
+2
+Enter Book ID to remove: B102
+B102 Book removed from the Library...
+
+=== Library Management System ===
+1. Add Book
+2. Remove Book
+3. Issue Book
+4. Return Book
+5. List Available Books
+6. Borrowed Books
+7. Register the User.
+8. Exit
+Enter your Choice:
+5
+
+Available Books:
+ID: B101, Title: The Alchemist, Available: 3
+ID: B103, Title: Introduction to Algorithms, Available: 1
+
+=== Library Management System ===
+1. Add Book
+2. Remove Book
+3. Issue Book
+4. Return Book
+5. List Available Books
+6. Borrowed Books
+7. Register the User.
+8. Exit
+Enter your Choice:
+7
+Enter Your Name:
+Galla Karthikeya
+Enter your Position(Student/Faculty):
+Student
+
+=== Library Management System ===
+1. Add Book
+2. Remove Book
+3. Issue Book
+4. Return Book
+5. List Available Books
+6. Borrowed Books
+7. Register the User.
+8. Exit
+Enter your Choice:
+8
+Exiting....
+
+C:\Users\g.karthikeya\Documents\Visual Studio 2022\Projects\LibraryManagementSystem\bin\Debug\net8.0\LibraryManagementSystem.exe (process 20780) exited with code 0 (0x0).
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .

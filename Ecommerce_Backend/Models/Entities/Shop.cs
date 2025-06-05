@@ -1,0 +1,21 @@
+namespace ECommerceApi.Models.Entities
+{
+    public class Shop
+    {
+        public int ShopId { get; set; }
+        public int ShopkeeperId { get; set; }
+        public Shopkeeper Shopkeeper { get; set; }
+        public string ShopName { get; set; }
+        public string Category { get; set; }
+        public string Address { get; set; }
+        public decimal? Latitude { get; set; }
+        public decimal? Longitude { get; set; }
+        public string City { get; set; }
+        public string State { get; set; }
+        public string ZipCode { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public ICollection<Product> Products { get; set; }
+        public ICollection<ShopHour> ShopHours { get; set; }
+        public ICollection<ShopReview> Reviews { get; set; }
+    }
+}

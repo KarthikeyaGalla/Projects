@@ -1,0 +1,6 @@
+@Nova_Sonic_Speech__Dotnet__HostAddress = http://localhost:5124
+
+GET {{Nova_Sonic_Speech__Dotnet__HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,6 @@
+@Text_Embedding_HostAddress = http://localhost:5055
+
+GET {{Text_Embedding_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

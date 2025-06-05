@@ -1,0 +1,7 @@
+C:\Users\g.karthikeya\Documents\Visual Studio 2022\Projects\Ecommerce_Backend\obj\Debug\net8.0\Ecommerce_Backend.csproj.AssemblyReference.cache
+C:\Users\g.karthikeya\Documents\Visual Studio 2022\Projects\Ecommerce_Backend\obj\Debug\net8.0\Ecommerce_Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\g.karthikeya\Documents\Visual Studio 2022\Projects\Ecommerce_Backend\obj\Debug\net8.0\Ecommerce_Backend.AssemblyInfoInputs.cache
+C:\Users\g.karthikeya\Documents\Visual Studio 2022\Projects\Ecommerce_Backend\obj\Debug\net8.0\Ecommerce_Backend.AssemblyInfo.cs
+C:\Users\g.karthikeya\Documents\Visual Studio 2022\Projects\Ecommerce_Backend\obj\Debug\net8.0\Ecommerce_Backend.csproj.CoreCompileInputs.cache
+C:\Users\g.karthikeya\Documents\Visual Studio 2022\Projects\Ecommerce_Backend\obj\Debug\net8.0\Ecommerce_Backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\g.karthikeya\Documents\Visual Studio 2022\Projects\Ecommerce_Backend\obj\Debug\net8.0\Ecommerce_Backend.MvcApplicationPartsAssemblyInfo.cache

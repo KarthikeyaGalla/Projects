@@ -1,0 +1,97 @@
+[
+  {
+    "ContainingType": "FilesHandleController",
+    "Method": "ReadFileContent",
+    "RelativePath": "api/FilesHandle/read-content",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GeminiIntegration.Models.FileDownloadRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilesHandleController",
+    "Method": "UploadFile",
+    "RelativePath": "api/FilesHandle/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GeminiIntegration.Controllers.GeminiController",
+    "Method": "Delete",
+    "RelativePath": "api/Gemini/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "partitionKey",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "rowKey",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GeminiIntegration.Controllers.GeminiController",
+    "Method": "DeleteBulk",
+    "RelativePath": "api/Gemini/DeleteBulk",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "partitionKey",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GeminiIntegration.Controllers.GeminiController",
+    "Method": "GenerateContent",
+    "RelativePath": "api/Gemini/generate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GeminiIntegration.Models.GeminiRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GeminiIntegration.Controllers.GeminiController",
+    "Method": "RetrieveData",
+    "RelativePath": "api/Gemini/RetriveData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "y5kkotrUvG9YrQbw3n1VVF0jikb+9gavqMspyJp9Mr8=",
+  "Source": "Text_Embedding",
+  "BasePath": "_content/Text_Embedding",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

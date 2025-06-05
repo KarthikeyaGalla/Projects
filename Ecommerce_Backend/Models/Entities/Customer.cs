@@ -1,0 +1,23 @@
+namespace ECommerceApi.Models.Entities
+{
+    public class Customer
+    {
+        public int CustomerId { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string PasswordHash { get; set; }
+        public string Phone { get; set; }
+        public string Address { get; set; }
+        public decimal? Latitude { get; set; }
+        public decimal? Longitude { get; set; }
+        public string City { get; set; }
+        public string State { get; set; }
+        public string ZipCode { get; set; }
+        public DateTime RegisteredAt { get; set; }
+        public ICollection<Order> Orders { get; set; }
+        public ICollection<CartItem> CartItems { get; set; }
+        public ICollection<ProductReview> ProductReviews { get; set; }
+        public ICollection<ShopReview> ShopReviews { get; set; }
+        public ICollection<SavedLocation> SavedLocations { get; set; }
+    }
+}

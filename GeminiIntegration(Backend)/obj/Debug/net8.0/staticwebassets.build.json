@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "GtV7K5bHPKIurJ5Mf0ICD3H1/E7+c9T7zs5sjPjpTvw=",
+  "Source": "GeminiIntegration",
+  "BasePath": "_content/GeminiIntegration",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

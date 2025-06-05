@@ -1,0 +1,6 @@
+@Speech_Bot_HostAddress = http://localhost:5161
+
+GET {{Speech_Bot_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

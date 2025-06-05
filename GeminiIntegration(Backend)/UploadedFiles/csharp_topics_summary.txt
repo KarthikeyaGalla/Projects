@@ -1,0 +1,58 @@
+C# Topics Summary
+
+1. Basics
+   - Variables: Store data values (e.g., int, string, bool).
+   - Operators: Arithmetic (+, -, *, /), comparison (==, !=), logical (&&, ||).
+   - Control Structures: if, else, switch, loops (for, while, foreach).
+
+2. Object-Oriented Programming (OOP)
+   - Classes and Objects: Blueprint and instances of objects.
+   - Inheritance: A class can inherit from another class.
+   - Polymorphism: Same method name, different behavior.
+   - Encapsulation: Restrict access to data via access modifiers (public, private, protected).
+   - Abstraction: Hiding complex details and showing essentials via interfaces/abstract classes.
+
+3. Data Structures
+   - Arrays: Fixed-size collections.
+   - Lists: Dynamic collections (List<T>).
+   - Dictionaries: Key-value pairs (Dictionary<TKey, TValue>).
+
+4. Methods
+   - Reusable blocks of code.
+   - Parameters and return types.
+   - Overloading: Methods with the same name but different signatures.
+
+5. LINQ (Language Integrated Query)
+   - Query collections easily (e.g., where, select, orderby).
+   - Works on arrays, lists, databases.
+
+6. Exception Handling
+   - Try-catch blocks to manage runtime errors.
+   - throw keyword to raise exceptions.
+
+7. Asynchronous Programming
+   - async and await keywords for non-blocking operations.
+   - Task-based programming model.
+
+8. Files and Streams
+   - Read/write files using StreamReader, StreamWriter, FileStream.
+
+9. Events and Delegates
+   - Delegates: Pointers to methods.
+   - Events: Messaging system between classes.
+
+10. Attributes
+    - Metadata added to code (e.g., [Serializable], [Obsolete]).
+
+11. Generics
+    - Type-safe data structures without specifying concrete types.
+
+12. Memory Management
+    - Garbage Collection handles memory cleanup automatically.
+
+13. Dependency Injection
+    - Technique to inject dependencies instead of creating them inside classes — promotes loose coupling.
+
+14. ASP.NET Core Overview (Bonus)
+    - Framework for building web apps and APIs.
+    - Uses controllers, dependency injection, middleware.

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OyFDymXLAx4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\g.karthikeya\\Documents\\Visual Studio 2022\\Projects\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\g.karthikeya\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+  ],
+  "logs": []
+}

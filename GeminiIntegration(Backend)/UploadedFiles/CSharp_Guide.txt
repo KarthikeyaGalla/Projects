@@ -1,0 +1,46 @@
+## Complete Guide to C#: From Basic to Advanced
+
+### Table of Contents
+1. Introduction to C#
+2. Setting Up the Environment
+3. Basic Syntax and Structure
+4. Variables and Data Types
+5. Operators
+6. Control Flow
+7. Methods and Parameters
+8. Object-Oriented Programming in C#
+9. Collections and Generics
+10. Exception Handling
+11. File I/O
+12. LINQ (Language Integrated Query)
+13. Asynchronous Programming (async/await)
+14. Delegates and Events
+15. Advanced Topics
+16. Best Practices
+
+---
+
+### 1. Introduction to C#
+C# (pronounced "C-Sharp") is a modern, object-oriented programming language developed by Microsoft. It is part of the .NET ecosystem and is widely used for developing Windows applications, web applications, games, and more.
+
+### 2. Setting Up the Environment
+- **Install .NET SDK**: Download from https://dotnet.microsoft.com
+- **IDE**: Visual Studio (Windows/macOS) or Visual Studio Code (cross-platform)
+- **Create Project**: Use `dotnet new console -n MyApp`
+
+### 3. Basic Syntax and Structure
+```csharp
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+    }
+}
+```
+
+... (content continues)
+
+This document provides a comprehensive guide to C# for beginners to advanced users. For further learning, refer to Microsoft Docs and the C# Programming Guide online.
