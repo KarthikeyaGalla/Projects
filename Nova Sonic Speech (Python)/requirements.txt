@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+pyaudio
+python-dotenv
+aws-sdk-bedrock-runtime  # or the correct name if available from AWS SDK

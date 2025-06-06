@@ -9,6 +9,8 @@ from aws_sdk_bedrock_runtime.models import InvokeModelWithBidirectionalStreamInp
 from aws_sdk_bedrock_runtime.config import Config, HTTPAuthSchemeResolver, SigV4AuthScheme
 from smithy_aws_core.credentials_resolvers.environment import EnvironmentCredentialsResolver
 from dotenv import load_dotenv
+from azure_logger import save_transcript
+
 
 load_dotenv()
 
@@ -33,6 +35,9 @@ class SimpleNovaSonic:
         self.audio_queue = asyncio.Queue()
         self.role = None
         self.display_assistant_text = False
+        self.system_prompt_text = None
+        self.user_prompt = ""
+        self.assistant_response = ""
         
     def _initialize_client(self):
         """Initialize the Bedrock client."""
@@ -122,10 +127,12 @@ class SimpleNovaSonic:
         '''
         await self.send_event(text_content_start)
         
-        system_prompt = "You are a friendly assistant. The user and you will engage in a spoken dialog " \
-            "exchanging the transcripts of a natural real-time conversation. Keep your responses short, " \
-            "generally two or three sentences for chatty scenarios."
+        system_prompt = "You are a professional, friendly customer service assistant for a business. "\
+            "Engage with the user using natural spoken conversation to understand and resolve their queries efficiently. "\
+            "Keep responses short (2–3 sentences), clear, and supportive. Maintain a polite, calm tone and guide users when needed. "\
+            "Avoid technical jargon unless the user seems experienced. Prioritize solving their issue while ensuring a pleasant interaction."
         
+        self.system_prompt_text = system_prompt
 
 
         text_input = f'''
@@ -269,11 +276,25 @@ class SimpleNovaSonic:
                         # Handle text output event
                         elif 'textOutput' in json_data['event']:
                             text = json_data['event']['textOutput']['content']    
-                           
-                            if (self.role == "ASSISTANT" and self.display_assistant_text):
-                                print(f"Assistant: {text}")
+
+                            if self.role == "ASSISTANT":
+                                self.assistant_response += text + " "
+                                
+                                if self.display_assistant_text:
+                                    print(f"Assistant: {text}")
+                                
+                                # Save both prompt and response when assistant replies
+                                if self.user_prompt.strip():
+                                    save_transcript(self.user_prompt.strip(), self.assistant_response.strip())
+
+                                    # Clear stored prompts after saving
+                                    self.user_prompt = ""
+                                    self.assistant_response = ""
+
                             elif self.role == "USER":
+                                self.user_prompt += text + " "
                                 print(f"User: {text}")
+
                         
                         # Handle audio output
                         elif 'audioOutput' in json_data['event']:
